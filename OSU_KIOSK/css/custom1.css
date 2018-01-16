@@ -1,4 +1,3 @@
-/* Begin Primo branding */
 prm-topbar .prm-primary-bg.prm-hue1, prm-browse-search-bar.prm-hue1, prm-journals-search-bar.prm-hue1, prm-search-bar.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark::after, prm-tags-search-bar.prm-hue1, prm-topbar .top-nav-bar, .prm-secondary-color, prm-topbar .top-nav-bar, html#primoExploreRoot body primo-explore.__lgPlus.__gt-xs.__gt-sm.__gt-md div prm-explore-main div.header.topbar-wrapper.relative-position.layout-column prm-topbar div.top-nav-bar.layout-row prm-user-area md-fab-toolbar.hide-xs._md-animations-ready.md-fab-toolbar.md-left.md-is-open div._md-fab-toolbar-wrapper div._md-fab-toolbar-content md-fab-trigger.align-with-text.show-user-info { background-color: #dc4405; }
 
 prm-topbar .md-toolbar-tools { background-color: #dc4405; font-size: 110%; }
@@ -32,9 +31,6 @@ span[translate="mainmenu.label.interlibrary_loan"] { max-width: none; }
 [aria-label="Tags"] { display:none; }
 #tags { display:none; }
 
-/* Hide Tags in Menu Tab */
-a.md-button[aria-label="Tags"] { display:none; }
-a.md-button[aria-label="nui.mainmenu.label.tags"] { display:none; }
 
 .WC_hide { display:none; } 
 
@@ -136,9 +132,11 @@ md-input-container {
 
 /* Kiosk Styling */
 
-body { font-size: 22px; }
+body { font-size: 20px; }
 
-prm-topbar { display: none; } 
+prm-search-bookmark-filter { display: none; }
+
+prm-user-area { display: none; }
 
 prm-resource-recommender { display: none; }
 
@@ -146,8 +144,10 @@ prm-resource-recommender { display: none; }
 
 prm-login-alma-mashup { display: none; }
 
-h4[translate="nui.brief.results.tabs.send_to"] { display: none; }
-
-prm-service-header md-divider { display: none; }
-
 #services-index { display: none; }
+
+#action_list > div:nth-child(1) > prm-full-view-service-container:nth-child(1) { display: none; }
+
+.result-item-actions { display: none; }
+
+#fixed-buttons-holder { display: none; }
