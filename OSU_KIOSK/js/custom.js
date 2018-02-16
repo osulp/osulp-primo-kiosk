@@ -4,7 +4,7 @@
 
 var app = angular.module('viewCustom', ['angularLoad']);
    
-  /*<!-- LibNav Widget Integration -->*/
+  /*<!-- LibNav Widget Integration -->
   app.controller('prmSearchResultAvailabilityLineAfterController',  ['angularLoad', function (angularLoad) {
     var w = this;
     var w = document.createElement("script");

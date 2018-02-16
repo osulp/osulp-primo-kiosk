@@ -132,7 +132,9 @@ md-input-container {
 
 /* Kiosk Styling */
 
-body { font-size: 20px; }
+body { font-size: 12px; }
+
+.section-title-header { font-size: 12px !important; }
 
 prm-search-bookmark-filter { display: none; }
 
